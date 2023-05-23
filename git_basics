@@ -1,0 +1,21 @@
+Creating this file to add the basic instructions from GitHub
+on how to create and push for a new repository, from our machine
+to our repo on GitHub.
+
+The following instructions came from the GitHub page.
+Daniel / May 23 - 2023
+Godspeed.
+
+…or create a new repository on the command line
+echo "# GitDemo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/dannycuevas/GitDemo.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/dannycuevas/GitDemo.git
+git branch -M main
+git push -u origin main
